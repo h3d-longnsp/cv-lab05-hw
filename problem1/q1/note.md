@@ -1,0 +1,16 @@
+### Study functions note:
+- **`brighten`**:
+  - Source: https://www.mathworks.com/help/matlab/ref/brighten.html
+  - **`brighten(beta)`** shifts the intensity of all colors in the current colormap in the same direction. The colors brighten when beta is between 0 and 1, and they darken when beta is between -1 and 0. The magnitude of the change is proportional to the magnitude of beta.
+- **`contrast`**: 
+  - Source: https://www.mathworks.com/help/matlab/ref/contrast.html 
+  - **`newmap = contrast(I)`** creates a grayscale colormap that enhances the contrast of image **`I`**. The new colormap increases the contrast among pixels that are difficult to distinguish visually, but have slightly different brightness values.
+- **`histeq`**: 
+  - Source: https://www.mathworks.com/help/images/ref/histeq.html
+  - **`J = histeq(I)`** transforms the grayscale image **`I`** so that the histogram of the output grayscale image **`J`** has 64 bins and is approximately flat.
+- **`imcontrast`**:
+  - Source: https://www.mathworks.com/help/images/ref/imcontrast.html
+  - Use the **`imcontrast`** function to create an Adjust Contrast tool. The Adjust Contrast tool is an interactive contrast and brightness adjustment tool that you can use to adjust the black-to-white mapping used to display a grayscale image.
+- **`imadjust`** :
+  - Source: https://www.mathworks.com/help/images/ref/imadjust.html
+  - **`J = imadjust(I)`** maps the intensity values in grayscale image **`I`** to new values in **`J`**. By default, imadjust saturates the bottom 1% and the top 1% of all pixel values. This operation increases the contrast of the output image **`J`**.
