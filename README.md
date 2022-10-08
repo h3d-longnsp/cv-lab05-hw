@@ -1,7 +1,7 @@
 # cv-lab05-hw
 
 #### Directory tree
-
+<pre>
 📦problem1
  ┣ 📂q1
  ┃ ┣ 📜city-output.jpg
@@ -36,3 +36,4 @@
  ┣ 📜pic.jpg
  ┣ 📜scale.py `resize images`
  ┗ 📜utils.py
+ </pre>
